@@ -56,6 +56,15 @@
 /*------------------------------------------------MAIN----------------------------------------*/
 .main
 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.main   .index_background
+{
     background-image: url("images/back.jpg");
     background-position: center;
     background-size: cover;
@@ -63,6 +72,17 @@
     background-attachment: fixed;
     height: 90vh;
 }
+.main   .whatsnew_background
+{
+    background-image: url("collection/back2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+
 .main .main_content
 {
     padding-top: 10%;
